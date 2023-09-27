@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import React, { ReactNode } from 'react'
 import Navbar from '../../components/Navbar'
+import Link from 'next/link'
 
 type Props = {
   children: ReactNode
@@ -28,7 +29,7 @@ const Privacy = ({
     <div className="container mx-auto text-white pt-2">
         <h1 className="text-2xl">Privacy Policy</h1>
 
-        <p className="text-sm">This Privacy Policy describes how Pixelsarena Technologies ("we," "us," or "Pixelsarena Technologies") collects, uses, and shares personal information when you visit <a href="https://pixelsarena.com/">Pixelsarena Technologies</a> (the "Site").</p>
+        <p className="text-sm">This Privacy Policy describes how Pixelsarena Technologies (we, us, or Pixelsarena Technologies) collects, uses, and shares personal information when you visit <Link href="https://pixelsarena.com/">Pixelsarena Technologies</Link> (the Site).</p>
 
         <h3 className="text-xl">Information We Collect</h3>
         <p className="text-sm">Personal Information: We may collect your name, email address, and other contact information when you submit forms or interact with our Site.</p>
