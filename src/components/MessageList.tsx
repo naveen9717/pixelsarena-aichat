@@ -17,7 +17,7 @@ const MessagesList = () => {
             key={message.content}
           >
             {!isUser && (
-              <img src="./img/chat.png" className="w-9·h-9·rounded-full" alt="avatar"/>
+              <img src="./img/chat.png" className="w-9 h-9 rounded-full" alt="avatar"/>
             )}
             <div
               style={{ maxWidth: 'calc(100% - 45px)' }}
