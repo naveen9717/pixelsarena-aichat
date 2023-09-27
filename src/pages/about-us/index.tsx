@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import React, { ReactNode } from 'react'
-import Navbar from '../../components/Navbar';
+import Navbar from '../../components/Navbar'
 
 type Props = {
   children: ReactNode
@@ -28,7 +28,6 @@ const About = ({
     <div className="container mx-auto text-white pt-2">
 
         <p className="text-base m-2">At Pixelsarena AIChat, we are at the forefront of the conversational AI revolution, committed to reshaping the way humans interact with technology. Founded on the pillars of innovation and user-centric design, we have pioneered a cutting-edge platform that seamlessly blends natural language understanding and generation capabilities.</p>
-
         <p className="text-base m-2">Our core mission is clear: to elevate user experiences across a multitude of industries by offering advanced AI-driven solutions. Whether it's chatbots that assist customers, virtual assistants that streamline workflows, or automated support systems that provide efficient solutions, Pixelsarena AIChat is dedicated to facilitating meaningful and intelligent conversations.</p>
         <p className="text-base m-2">Usage Data: We automatically collect certain information about your device, browser, and how you interact with our Site.</p>
         <p className="text-base m-2">Our passionate team of experts, composed of data scientists, engineers, and designers, collaborates tirelessly to advance the field of AI. We meticulously craft chatbots and virtual assistants that not only comprehend user queries but also respond with precision, empathy, and context-awareness.</p>
